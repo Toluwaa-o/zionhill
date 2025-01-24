@@ -31,7 +31,7 @@ const TvShowsDetail = memo(() => {
   const shows = {
     id: 1,
     slug: "zombie-world",
-    thumbnail: generateImgPath("/public/assets/images/genre/01.webp"),
+    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
     title: "episode_page.zombie_world",
     detail: "detail_page.movie_desc",
     season_type: `2 ${t("ott_home.season")}`,
@@ -52,28 +52,28 @@ const TvShowsDetail = memo(() => {
     is_restricted: false,
     episodes: [
       {
-        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/01.webp"),
+        thumbnail: generateImgPath("/assets/images/tv-show/episodes/01.webp"),
         episode_no: "S01E01",
         release_date: `${t('detail_page.october')}  1, 2020`,
         duration: "45min",
         name: `${t('episode_page.zombie_world')} 1`,
       },
       {
-        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/02.webp"),
+        thumbnail: generateImgPath("/assets/images/tv-show/episodes/02.webp"),
         episode_no: "S01E02",
         release_date: `${t('detail_page.october')}  8, 2020`,
         duration: "35min",
         name: `${t('episode_page.zombie_world')} 2`,
       },
       {
-        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/03.webp"),
+        thumbnail: generateImgPath("/assets/images/tv-show/episodes/03.webp"),
         episode_no: "S01E03",
         release_date: `${t('detail_page.october')}  15, 2020`,
         duration: "36min",
         name: `${t('episode_page.zombie_world')} 3`,
       },
       {
-        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/04.webp"),
+        thumbnail: generateImgPath("/assets/images/tv-show/episodes/04.webp"),
         episode_no: "S01E04",
         release_date: `${t('detail_page.october')}  22, 2020`,
         duration: "41min",
@@ -84,29 +84,29 @@ const TvShowsDetail = memo(() => {
     cast: [
       {
         title: "detail_page.james_chinlund",
-        thumbnail: generateImgPath("/public/assets/images/genre/g1.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g1.webp"),
         as: "detail_page.as_james",
       },
       {
         title: "detail_page.james_earl",
-        thumbnail: generateImgPath("/public/assets/images/genre/g2.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g2.webp"),
         as: "detail_page.as_jones",
       },
     ],
     crew: [
       {
         title: "detail_page.jeff_nathanson",
-        thumbnail: generateImgPath("/public/assets/images/genre/g3.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g3.webp"),
         as: "detail_page.writing",
       },
       {
         title: "detail_page.irene_mecchi",
-        thumbnail: generateImgPath("/public/assets/images/genre/g5.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g5.webp"),
         as: "detail_page.writing",
       },
       {
         title: "detail_page.karan_gilchrist",
-        thumbnail: generateImgPath("/public/assets/images/genre/g4.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g4.webp"),
         as: "detail_page.production",
       },
     ],
@@ -123,7 +123,7 @@ const TvShowsDetail = memo(() => {
             className="overlay-wrapper iq-main-slider "
             style={{
               background: `url(${generateImgPath(
-                "/public/assets/images/tv-show/episodes/main-banner.webp"
+                "/assets/images/tv-show/episodes/main-banner.webp"
               )}`,
               backgroundRepeat: "no-repeat",
             }}
@@ -137,7 +137,7 @@ const TvShowsDetail = memo(() => {
                   <RatingStar count="4" count1="1" starColor="text-warning" />
                   <span className="text-white ms-4 me-1">{shows.rating}</span>
                   <img
-                    src={generateImgPath("/public/assets/images/movies/imdb-logo.svg")}
+                    src={generateImgPath("/assets/images/movies/imdb-logo.svg")}
                     alt="imdb-logo"
                     className="img-fluid ms-2"
                   />

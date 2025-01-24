@@ -51,7 +51,7 @@ const ProductModal = memo((props) => {
           <Row className="align-items-center">
             <Col md="6">
               <img
-                src="/public/assets/images/shop/product/01.webp"
+                src="/assets/images/shop/product/01.webp"
                 alt="shop-img"
                 className="object-cover"
               />

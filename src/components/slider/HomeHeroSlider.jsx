@@ -39,7 +39,7 @@ const HomeHeroSlider = memo(() => {
         <SwiperSlide className="slide s-bg-1 p-0">
           <div className="banner-home-swiper-image">
             <img
-              src="/public/assets/images/movies/banner1.webp"
+              src="/assets/images/movies/banner1.webp"
               alt="banner-home-swiper-image"
             />
           </div>
@@ -74,7 +74,7 @@ const HomeHeroSlider = memo(() => {
                       </span>
                       {/* <span className="ms-2">
                         <img
-                          src="/public/assets/images/movies/imdb-logo.svg"
+                          src="/assets/images/movies/imdb-logo.svg"
                           alt="imdb logo"
                           className="img-fluid"
                         />
@@ -191,7 +191,7 @@ const HomeHeroSlider = memo(() => {
         <SwiperSlide className="slide s-bg-1 p-0">
           <div className="banner-home-swiper-image">
             <img
-              src="/public/assets/images/movies/banner2.webp"
+              src="/assets/images/movies/banner2.webp"
               alt="banner-home-swiper-image"
             />
           </div>
@@ -226,7 +226,7 @@ const HomeHeroSlider = memo(() => {
                       </span>
                       {/* <span className="ms-2">
                         <img
-                          src="/public/assets/images/movies/imdb-logo.svg"
+                          src="/assets/images/movies/imdb-logo.svg"
                           alt="imdb logo"
                           className="img-fluid"
                         />
@@ -343,7 +343,7 @@ const HomeHeroSlider = memo(() => {
         <SwiperSlide className="slide s-bg-1 p-0">
           <div className="banner-home-swiper-image">
             <img
-              src="/public/assets/images/movies/banner3.webp"
+              src="/assets/images/movies/banner3.webp"
               alt="banner-home-swiper-image"
             />
           </div>
@@ -378,7 +378,7 @@ const HomeHeroSlider = memo(() => {
                       </span>
                       {/* <span className="ms-2">
                         <img
-                          src="/public/assets/images/movies/imdb-logo.svg"
+                          src="/assets/images/movies/imdb-logo.svg"
                           alt="imdb logo"
                           className="img-fluid"
                         />
@@ -528,7 +528,7 @@ const HomeHeroSlider = memo(() => {
       </Swiper>
       <FsLightbox
         toggler={toggler}
-        sources={["/public/assets/images/video/trailer.mp4"]}
+        sources={["/assets/images/video/trailer.mp4"]}
       />
     </Fragment>
   );

@@ -48,7 +48,7 @@ const ParallexSection = memo(() => {
                     </span>
                     {/* <span className="ms-2">
                       <img
-                        src="/public/assets/images/movies/imdb-logo.svg"
+                        src="/assets/images/movies/imdb-logo.svg"
                         alt="imdb logo"
                         className="img-fluid"
                       />
@@ -82,7 +82,7 @@ const ParallexSection = memo(() => {
               <div className="parallax-img">
                 <Link to="">
                   <img
-                    src="/public/assets/images/parallax/parallex.webp"
+                    src="/assets/images/parallax/parallex.webp"
                     className="img-fluid w-100"
                     loading="lazy"
                     alt="bailey"

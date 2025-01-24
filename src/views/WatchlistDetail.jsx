@@ -21,28 +21,28 @@ const WatchlistDetail = memo(() => {
   const watchlist = [
     {
       id: "01",
-      thumbnail: "/public/assets/images/movies/latest/01.webp",
+      thumbnail: "/assets/images/movies/latest/01.webp",
       title: t("detail_page.mortal_nories"),
       duration: `1 ${t('playlist.month_ago')}`,
       views: `30 ${t('playlist.views')}`,
     },
     {
       id: "02",
-      thumbnail: "/public/assets/images/movies/latest/02.webp",
+      thumbnail: "/assets/images/movies/latest/02.webp",
       title: t("detail_page.advetre"),
       duration: `3 ${t('playlist.month_ago')}`,
       views: `75 ${t('playlist.views')}`,
     },
     {
       id: "03",
-      thumbnail: "/public/assets/images/movies/latest/03.webp",
+      thumbnail: "/assets/images/movies/latest/03.webp",
       title: t("detail_page.net_ailo"),
       duration: `2 ${t('playlist.month_ago')}`,
       views: `150 ${t('playlist.views')}`,
     },
     {
       id: "04",
-      thumbnail: "/public/assets/images/movies/latest/04.webp",
+      thumbnail: "/assets/images/movies/latest/04.webp",
       title: t("detail_page.ariivaal"),
       duration: `5 ${t('playlist.month_ago')}`,
       views: `300 ${t('playlist.views')}`,
@@ -61,7 +61,7 @@ const WatchlistDetail = memo(() => {
                 ></Link>
                 <div className="img-box">
                   <img
-                    src="/public/assets/images/movies/ott2.webp"
+                    src="/assets/images/movies/ott2.webp"
                     alt="movie-card"
                     className="img-fluid object-cover d-block"
                   />
@@ -148,7 +148,7 @@ const WatchlistDetail = memo(() => {
         maxYoutubeVideoDimensions={{ width: 700, height: 400 }}
         exitFullscreenOnClose={true}
         toggler={toggler}
-        sources={["/public/assets/images/video/trailer.mp4"]}
+        sources={["/assets/images/video/trailer.mp4"]}
       />
     </Fragment>
   );

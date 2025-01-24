@@ -35,43 +35,43 @@ const Playlist = memo(() => {
 
   const playlist = [
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/01.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/01.webp"),
       title: t("playlist.play_list1"),
       category: t("playlist.public"),
       views: `3 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/02.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/02.webp"),
       title: t("playlist.play_list2"),
       category: t("playlist.private"),
       views: `1 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/03.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/03.webp"),
       title: t("playlist.play_list3"),
       category: t("playlist.public"),
       views: `10 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/04.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/04.webp"),
       title: t("playlist.play_list4"),
       category: t("playlist.public"),
       views: `30 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/05.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/05.webp"),
       title: t("playlist.play_list5"),
       category: t("playlist.private"),
       views: `2 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/06.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/06.webp"),
       title: t("playlist.play_list6"),
       category: t("playlist.public"),
       views: `10 ${t("playlist.views")}`,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/playlist/07.webp"),
+      image: generateImgPath("/assets/images/movies/playlist/07.webp"),
       title: t("playlist.play_list7"),
       category: t("playlist.public"),
       views: `50 ${t("playlist.views")}`,
@@ -86,7 +86,7 @@ const Playlist = memo(() => {
               <div className="d-flex align-items-center gap-3">
                 <div className="account-logo d-flex align-items-center position-relative">
                   <img
-                    src="/public/assets/images/pages/profile.webp"
+                    src="/assets/images/pages/profile.webp"
                     alt="profile"
                     className="img-fluid object-cover rounded-3"
                   />

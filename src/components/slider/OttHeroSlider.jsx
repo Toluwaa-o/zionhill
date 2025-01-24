@@ -11,10 +11,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs } from "swiper";
 
 // img
-import ott1 from "/public/assets/images/movies/worship.jpg";
-import ott2 from "/public/assets/images/movies/Frame 37.png";
-import ott3 from "/public/assets/images/movies/Frame 38.png";
-import logo from "/public/assets/images/movies/imdb-logo.svg";
+import ott1 from "/assets/images/movies/worship.jpg";
+import ott2 from "/assets/images/movies/Frame 37.png";
+import ott3 from "/assets/images/movies/Frame 38.png";
+import logo from "/assets/images/movies/imdb-logo.svg";
 
 // Redux Selector / Action
 import { useSelector } from "react-redux";
@@ -25,12 +25,12 @@ import { useTranslation } from "react-i18next";
 
 const OttHeroSlider = memo(() => {
   const imgs = [
-    "/public/assets/images/movies/Frame 36.png",
-    "/public/assets/images/movies/Frame 37.png",
-    "/public/assets/images/movies/Frame 38.png",
-    "/public/assets/images/movies/Frame 39.png",
-    "/public/assets/images/movies/Frame 40.png",
-    "/public/assets/images/movies/Frame 41.png",
+    "/assets/images/movies/Frame 36.png",
+    "/assets/images/movies/Frame 37.png",
+    "/assets/images/movies/Frame 38.png",
+    "/assets/images/movies/Frame 39.png",
+    "/assets/images/movies/Frame 40.png",
+    "/assets/images/movies/Frame 41.png",
   ]
   const { t } = useTranslation();
   const themeSchemeDirection = useSelector(theme_scheme_direction);

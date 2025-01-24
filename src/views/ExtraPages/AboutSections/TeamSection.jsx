@@ -15,22 +15,22 @@ const TeamSection = memo(() => {
   const { t } = useTranslation();
   const [lists] = useState([
     {
-      image: generateImgPath("/public/assets/images/pages/team1.webp"),
+      image: generateImgPath("/assets/images/pages/team1.webp"),
       designation: "about_us.ceo",
       name: "about_us.tonny_smith",
     },
     {
-      image: generateImgPath("/public/assets/images/pages/team2.webp"),
+      image: generateImgPath("/assets/images/pages/team2.webp"),
       designation: "about_us.designer",
       name: "about_us.barry_tech",
     },
     {
-      image: generateImgPath("/public/assets/images/pages/team3.webp"),
+      image: generateImgPath("/assets/images/pages/team3.webp"),
       designation: "about_us.developer",
       name: "about_us.kep_john",
     },
     {
-      image: generateImgPath("/public/assets/images/pages/team4.webp"),
+      image: generateImgPath("/assets/images/pages/team4.webp"),
       designation: "about_us.designer",
       name: "about_us.monty_rock",
     },

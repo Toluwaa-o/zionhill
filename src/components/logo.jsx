@@ -4,10 +4,10 @@ import React, { memo, Fragment } from "react";
 import { Link } from "react-router-dom";
 
 // img
-import img1 from "/public/assets/images/ZTV.png";
-import hostar from "/public/assets/images/logo-hotstar.webp";
-import prime from "/public/assets/images/logo-prime.webp";
-import hulu from "/public/assets/images/logo-hulu.webp";
+import img1 from "/assets/images/ZTV.png";
+import hostar from "/assets/images/logo-hotstar.webp";
+import prime from "/assets/images/logo-prime.webp";
+import hulu from "/assets/images/logo-hulu.webp";
 
 const Logo = memo(() => {
   return (

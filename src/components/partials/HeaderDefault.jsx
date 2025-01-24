@@ -27,13 +27,13 @@ import CustomToggle from "../CustomToggle";
 import { useTranslation } from "react-i18next";
 
 // img
-import user from "/public/assets/images/user/user1.webp";
-import ott from "/public/assets/images/mega-menu/new-home.webp";
-import home from "/public/assets/images/mega-menu/home.webp";
-import movie from "/public/assets/images/mega-menu/movie.webp";
-import tvshow from "/public/assets/images/mega-menu/tv-show.webp";
-import video from "/public/assets/images/mega-menu/video.webp";
-import shop from "/public/assets/images/mega-menu/shop-home.webp";
+import user from "/assets/images/user/user1.webp";
+import ott from "/assets/images/mega-menu/new-home.webp";
+import home from "/assets/images/mega-menu/home.webp";
+import movie from "/assets/images/mega-menu/movie.webp";
+import tvshow from "/assets/images/mega-menu/tv-show.webp";
+import video from "/assets/images/mega-menu/video.webp";
+import shop from "/assets/images/mega-menu/shop-home.webp";
 
 const HeaderDefault = memo(() => {
   const dispatch = useDispatch();

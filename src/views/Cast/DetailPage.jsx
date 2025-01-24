@@ -19,7 +19,7 @@ const { t } = useTranslation();
 const DetailPage = memo(() => {
   const cast = {
     id: "01",
-    thumbnail: generateImgPath("/public/assets/images/cast/01.webp"),
+    thumbnail: generateImgPath("/assets/images/cast/01.webp"),
     name: t("detail_page.debbi_bossi"),
     roles: [
       t("detail_page.direction"),
@@ -42,35 +42,35 @@ const DetailPage = memo(() => {
         id: "1",
         name: t("detail_page.mortal_norris"),
         as: t("detail_page.christina_ricci"),
-        thumbnail: generateImgPath("/public/assets/images/movies/latest/01.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/latest/01.webp"),
         year: "2009",
       },
       {
         id: "2",
         name: t("detail_page.advetre"),
         as: t("detail_page.christina_ricci"),
-        thumbnail: generateImgPath("/public/assets/images/movies/latest/02.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/latest/02.webp"),
         year: "2009",
       },
       {
         id: "3",
         name: t("detail_page.net_ailo"),
         as: t("detail_page.christina_ricci"),
-        thumbnail: generateImgPath("/public/assets/images/movies/latest/03.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/latest/03.webp"),
         year: "2009",
       },
       {
         id: "4",
         name: t("detail_page.ariivaal"),
         as: t("detail_page.christina_ricci_3"),
-        thumbnail: generateImgPath("/public/assets/images/movies/latest/04.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/latest/04.webp"),
         year: "2009",
       },
     ],
     most_views: [
       {
         id: "01",
-        thumbnail: generateImgPath("/public/assets/images/movies/popular/01.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/popular/01.webp"),
         title: t("detail_page.crw"),
         duration: "2hr: 12mins",
         watchlistLink: "/playlist",
@@ -78,7 +78,7 @@ const DetailPage = memo(() => {
       },
       {
         id: "02",
-        thumbnail: generateImgPath("/public/assets/images/movies/popular/03.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/popular/03.webp"),
         title: t("detail_page.goal"),
         duration: "2hr: 30mins",
         watchlistLink: "/playlist",
@@ -86,7 +86,7 @@ const DetailPage = memo(() => {
       },
       {
         id: "03",
-        thumbnail: generateImgPath("/public/assets/images/movies/popular/04.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/popular/04.webp"),
         title: t("detail_page.dandacg"),
         duration: "1hr: 30mins",
         watchlistLink: "/playlist",
@@ -94,7 +94,7 @@ const DetailPage = memo(() => {
       },
       {
         id: "04",
-        thumbnail: generateImgPath("/public/assets/images/movies/popular/05.webp"),
+        thumbnail: generateImgPath("/assets/images/movies/popular/05.webp"),
         title: t("detail_page.mexcan"),
         duration: "1hr: 30mins",
         watchlistLink: "/playlist",

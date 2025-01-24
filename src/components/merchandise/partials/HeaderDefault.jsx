@@ -49,19 +49,19 @@ const HeaderMerchandise = memo(() => {
 
   const cart = [
     {
-      thumbnail: "/public/assets/images/shop/product/02.webp",
+      thumbnail: "/assets/images/shop/product/02.webp",
       name: "shop.believe_mask",
       price: "$13.00",
       class: "mb-4 pb-4 border-bottom",
     },
     {
-      thumbnail: "/public/assets/images/shop/product/04.webp",
+      thumbnail: "/assets/images/shop/product/04.webp",
       name: "shop.black_cap",
       price: "$18.00",
       class: "mb-4 pb-4 border-bottom",
     },
     {
-      thumbnail: "/public/assets/images/shop/product/05.webp",
+      thumbnail: "/assets/images/shop/product/05.webp",
       name: "shop.boxing_gloves",
       price: "$18.00",
       class: "",
@@ -263,7 +263,7 @@ const HeaderMerchandise = memo(() => {
                         >
                           <li className="user-info d-flex align-items-center gap-3 mb-3">
                             <img
-                              src="/public/assets/images/user/user1.webp"
+                              src="/assets/images/user/user1.webp"
                               className="img-fluid"
                               alt=""
                               loading="lazy"
@@ -1565,7 +1565,7 @@ const HeaderMerchandise = memo(() => {
                             >
                               <div className="user-info d-flex align-items-center gap-3 mb-3">
                                 <img
-                                  src="/public/assets/images/user/user1.webp"
+                                  src="/assets/images/user/user1.webp"
                                   className="img-fluid"
                                   alt=""
                                   loading="lazy"

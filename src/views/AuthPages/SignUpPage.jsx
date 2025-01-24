@@ -17,7 +17,7 @@ const SignUpPage = memo(() => {
         <div
           className="vh-100"
           style={{
-            backgroundImage: "url(/public/assets/images/pages/01.webp)",
+            backgroundImage: "url(/assets/images/pages/01.webp)",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             position: "relative",

@@ -7,49 +7,49 @@ export const geners = [
     id: 1,
     slug: "action",
     title: "ott_home.action",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
     type: "movie",
   },
   {
     id: 2,
     slug: "adventure",
     title: "ott_home.adventure",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    thumbnail: generateImgPath("/assets/images/genre/02.webp"),
     type: "movie",
   },
   {
     id: 3,
     slug: "animation",
     title: "ott_home.animation",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    thumbnail: generateImgPath("/assets/images/genre/03.webp"),
     type: "movie",
   },
   {
     id: 4,
     slug: "comedy",
     title: "ott_home.comedy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    thumbnail: generateImgPath("/assets/images/genre/04.webp"),
     type: "movie",
   },
   {
     id: 5,
     slug: "drama",
     title: "ott_home.drama",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    thumbnail: generateImgPath("/assets/images/genre/05.webp"),
     type: "movie",
   },
   {
     id: 6,
     slug: "family",
     title: "ott_home.family",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    thumbnail: generateImgPath("/assets/images/genre/06.webp"),
     type: "movie",
   },
   {
     id: 7,
     slug: "fantacy",
     title: "ott_home.fantacy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    thumbnail: generateImgPath("/assets/images/genre/07.webp"),
     type: "movie",
   },
 ];
@@ -59,49 +59,49 @@ export const tvShowGenres = [
     id: 1,
     slug: "action",
     title: "ott_home.action",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
     type: "movie",
   },
   {
     id: 2,
     slug: "adventure",
     title: "ott_home.adventure",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    thumbnail: generateImgPath("/assets/images/genre/02.webp"),
     type: "movie",
   },
   {
     id: 3,
     slug: "animation",
     title: "ott_home.animation",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    thumbnail: generateImgPath("/assets/images/genre/03.webp"),
     type: "movie",
   },
   {
     id: 4,
     slug: "comedy",
     title: "ott_home.comedy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    thumbnail: generateImgPath("/assets/images/genre/04.webp"),
     type: "movie",
   },
   {
     id: 5,
     slug: "drama",
     title: "ott_home.drama",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    thumbnail: generateImgPath("/assets/images/genre/05.webp"),
     type: "movie",
   },
   {
     id: 6,
     slug: "family",
     title: "ott_home.family",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    thumbnail: generateImgPath("/assets/images/genre/06.webp"),
     type: "movie",
   },
   {
     id: 7,
     slug: "fantacy",
     title: "ott_home.fantacy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    thumbnail: generateImgPath("/assets/images/genre/07.webp"),
     type: "movie",
   },
 ];
@@ -111,56 +111,56 @@ export const videoGenres = [
     id: 1,
     slug: "action",
     title: "ott_home.action",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
     type: "movie",
   },
   {
     id: 2,
     slug: "adventure",
     title: "ott_home.adventure",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    thumbnail: generateImgPath("/assets/images/genre/02.webp"),
     type: "movie",
   },
   {
     id: 3,
     slug: "animation",
     title: "ott_home.animation",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    thumbnail: generateImgPath("/assets/images/genre/03.webp"),
     type: "movie",
   },
   {
     id: 4,
     slug: "comedy",
     title: "ott_home.comedy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    thumbnail: generateImgPath("/assets/images/genre/04.webp"),
     type: "movie",
   },
   {
     id: 5,
     slug: "drama",
     title: "ott_home.drama",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    thumbnail: generateImgPath("/assets/images/genre/05.webp"),
     type: "movie",
   },
   {
     id: 6,
     slug: "family",
     title: "ott_home.family",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    thumbnail: generateImgPath("/assets/images/genre/06.webp"),
     type: "movie",
   },
   {
     id: 7,
     slug: "fantacy",
     title: "ott_home.fantacy",
-    thumbnail: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    thumbnail: generateImgPath("/assets/images/genre/07.webp"),
     type: "movie",
   },
 ];
 export const cast = [
   {
     id: 1,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "karen-gilchrist",
     title: "data_js.tagname1",
     designation: "data_js.production",
@@ -171,7 +171,7 @@ export const cast = [
   },
   {
     id: 2,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "debbi-bossi",
     title: "data_js.tagname2",
     designation: "data_js.production",
@@ -182,7 +182,7 @@ export const cast = [
   },
   {
     id: 3,
-    profile_image: generateImgPath("/public/assets/images/cast/03.webp"),
+    profile_image: generateImgPath("/assets/images/cast/03.webp"),
     slug: "james-chinlund",
     title: "data_js.tagname3",
     designation: "data_js.art",
@@ -193,7 +193,7 @@ export const cast = [
   },
   {
     id: 4,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "brenda-chapman",
     title: "data_js.tagname4",
     designation: "data_js.writing",
@@ -204,7 +204,7 @@ export const cast = [
   },
   {
     id: 5,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "mark-livolsi",
     title: "data_js.tagname5",
     designation: "data_js.editing",
@@ -215,7 +215,7 @@ export const cast = [
   },
   {
     id: 6,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "hans-zimmer",
     title: "data_js.tagname6",
     designation: "data_js.sound",
@@ -226,7 +226,7 @@ export const cast = [
   },
   {
     id: 7,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "caleb-deschanel",
     title: "data_js.tagname7",
     designation: "Camera",
@@ -237,7 +237,7 @@ export const cast = [
   },
   {
     id: 8,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "john-bartnicki",
     title: "data_js.tagname8",
     designation: "data_js.production",
@@ -248,7 +248,7 @@ export const cast = [
   },
   {
     id: 9,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "jeffrey-silver",
     title: "data_js.tagname9",
     designation: "data_js.production",
@@ -259,7 +259,7 @@ export const cast = [
   },
   {
     id: 10,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "linda-woolverton",
     title: "data_js.tagname10",
     designation: "data_js.writing",
@@ -270,7 +270,7 @@ export const cast = [
   },
   {
     id: 11,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "christoph-johnson",
     title: "data_js.tagname11",
     designation: "data_js.acting_directing",
@@ -281,7 +281,7 @@ export const cast = [
   },
   {
     id: 12,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "robert-romanson",
     title: "data_js.tagname12",
     designation: "data_js.acting_directing",
@@ -292,7 +292,7 @@ export const cast = [
   },
   {
     id: 13,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "anna-romanson",
     title: "data_js.tagname13",
     designation: "data_js.acting_directing",
@@ -303,7 +303,7 @@ export const cast = [
   },
   {
     id: 14,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "donald-glover",
     title: "data_js.tagname14",
     designation: "data_js.acting",
@@ -314,7 +314,7 @@ export const cast = [
   },
   {
     id: 15,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "beyoncé-knowles",
     title: "data_js.tagname15",
     designation: "data_js.acting",
@@ -325,7 +325,7 @@ export const cast = [
   },
   {
     id: 16,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "james-earl-jones",
     title: "data_js.tagname16",
     designation: "data_js.acting",
@@ -336,7 +336,7 @@ export const cast = [
   },
   {
     id: 17,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "chiwetel-ejiofor",
     title: "data_js.tagname17",
     designation: "data_js.acting",
@@ -347,7 +347,7 @@ export const cast = [
   },
   {
     id: 18,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "alfre-woodard",
     title: "data_js.tagname18",
     designation: "data_js.acting",
@@ -358,7 +358,7 @@ export const cast = [
   },
   {
     id: 19,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "john-oliver",
     title: "data_js.tagname19",
     designation: "data_js.acting",
@@ -369,7 +369,7 @@ export const cast = [
   },
   {
     id: 20,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "john-kani",
     title: "data_js.tagname20",
     designation: "data_js.acting",
@@ -380,7 +380,7 @@ export const cast = [
   },
   {
     id: 21,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "seth-rogen",
     title: "data_js.tagname21",
     designation: "data_js.acting",
@@ -391,7 +391,7 @@ export const cast = [
   },
   {
     id: 22,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "billy-eichner",
     title: "data_js.tagname22",
     designation: "data_js.acting",
@@ -402,7 +402,7 @@ export const cast = [
   },
   {
     id: 23,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "eric-andré",
     title: "data_js.tagname23",
     designation: "data_js.acting",
@@ -413,7 +413,7 @@ export const cast = [
   },
   {
     id: 24,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "florence-kasumba",
     title: "data_js.tagname24",
     designation: "data_js.acting",
@@ -424,7 +424,7 @@ export const cast = [
   },
   {
     id: 25,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "keegan-michael-key",
     title: "data_js.tagname25",
     designation: "data_js.acting",
@@ -435,7 +435,7 @@ export const cast = [
   },
   {
     id: 26,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "jd-mccrary",
     title: "data_js.tagname26",
     designation: "data_js.acting",
@@ -446,7 +446,7 @@ export const cast = [
   },
   {
     id: 27,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "shahadi-wright-joseph",
     title: "data_js.tagname27",
     designation: "data_js.acting",
@@ -457,7 +457,7 @@ export const cast = [
   },
   {
     id: 28,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "amy-sedaris",
     title: "data_js.tagname28",
     designation: "data_js.acting",
@@ -468,7 +468,7 @@ export const cast = [
   },
   {
     id: 29,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "jon-favreau",
     title: "data_js.tagname29",
     designation: "data_js.directing",
@@ -479,7 +479,7 @@ export const cast = [
   },
   {
     id: 30,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "jeff-nathanson",
     title: "data_js.tagname30",
     designation: "data_js.writing",
@@ -490,7 +490,7 @@ export const cast = [
   },
   {
     id: 31,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "irene-mecchi",
     title: "data_js.tagname31",
     designation: "data_js.writing",
@@ -501,7 +501,7 @@ export const cast = [
   },
   {
     id: 32,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "jonathan-roberts",
     title: "data_js.tagname32",
     designation: "data_js.writing",
@@ -512,7 +512,7 @@ export const cast = [
   },
   {
     id: 33,
-    profile_image: generateImgPath("/public/assets/images/cast/03.webp"),
+    profile_image: generateImgPath("/assets/images/cast/03.webp"),
     slug: "jennifer-lonez",
     title: "data_js.tagname33",
     designation: "data_js.acting_directing",
@@ -523,7 +523,7 @@ export const cast = [
   },
   {
     id: 34,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "mars-shelley",
     title: "data_js.tagname34",
     designation: "data_js.acting_directing",
@@ -534,7 +534,7 @@ export const cast = [
   },
   {
     id: 35,
-    profile_image: generateImgPath("/public/assets/images/cast/05.webp"),
+    profile_image: generateImgPath("/assets/images/cast/05.webp"),
     slug: "rosa-romanez",
     title: "data_js.tagname35",
     designation: "data_js.acting_directing",
@@ -545,7 +545,7 @@ export const cast = [
   },
   {
     id: 36,
-    profile_image: generateImgPath("/public/assets/images/cast/06.webp"),
+    profile_image: generateImgPath("/assets/images/cast/06.webp"),
     slug: "anna-martez",
     title: "data_js.tagname36",
     designation: "data_js.acting_directing",
@@ -556,7 +556,7 @@ export const cast = [
   },
   {
     id: 37,
-    profile_image: generateImgPath("/public/assets/images/cast/01.webp"),
+    profile_image: generateImgPath("/assets/images/cast/01.webp"),
     slug: "martin-mcKandy",
     title: "data_js.tagname37",
     designation: "data_js.acting_directing",
@@ -567,7 +567,7 @@ export const cast = [
   },
   {
     id: 38,
-    profile_image: generateImgPath("/public/assets/images/cast/02.webp"),
+    profile_image: generateImgPath("/assets/images/cast/02.webp"),
     slug: "robert-rodriguez",
     title: "data_js.tagname38",
     designation: "data_js.acting_directing",
@@ -578,7 +578,7 @@ export const cast = [
   },
   {
     id: 39,
-    profile_image: generateImgPath("/public/assets/images/cast/03.webp"),
+    profile_image: generateImgPath("/assets/images/cast/03.webp"),
     slug: "lili-morgen",
     title: "data_js.tagname39",
     designation: "data_js.acting_directing",
@@ -589,7 +589,7 @@ export const cast = [
   },
   {
     id: 40,
-    profile_image: generateImgPath("/public/assets/images/cast/04.webp"),
+    profile_image: generateImgPath("/assets/images/cast/04.webp"),
     slug: "cristina-morgan",
     title: "data_js.tagname40",
     designation: "data_js.acting_directing",
@@ -808,37 +808,37 @@ export const videoTags = [
 
 export const sectionSliders = [
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/movies/related/01.webp"),
     title: "episode_page.giikre",
     movieTime: "2hr: 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    image: generateImgPath("/assets/images/movies/related/02.webp"),
     title: "episode_page.yoshi",
     movieTime: "1hr: 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    image: generateImgPath("/assets/images/movies/related/03.webp"),
     title: "episode_page.we_gare",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    image: generateImgPath("/assets/images/movies/related/04.webp"),
     title: "episode_page.avengers",
     movieTime: "1hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    image: generateImgPath("/assets/images/movies/related/05.webp"),
     title: "episode_page.chosfies",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    image: generateImgPath("/assets/images/movies/related/06.webp"),
     title: "episode_page.tf_oaler",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/movies/related/07.webp"),
     title: "episode_page.another_danger",
     movieTime: "1hr: 30mins",
   },
@@ -846,37 +846,37 @@ export const sectionSliders = [
 
 export const populerSlider = [
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/movies/popular/01.webp"),
     title: "episode_page.crw",
     movieTime: "2hr: 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    image: generateImgPath("/assets/images/movies/popular/02.webp"),
     title: "episode_page.batte_wiire",
     movieTime: "1hr: 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    image: generateImgPath("/assets/images/movies/popular/03.webp"),
     title: "episode_page.goal",
     movieTime: "2hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    image: generateImgPath("/assets/images/movies/popular/04.webp"),
     title: "episode_page.dandacg",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    image: generateImgPath("/assets/images/movies/popular/05.webp"),
     title: "episode_page.mexcan",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+    image: generateImgPath("/assets/images/movies/popular/06.webp"),
     title: "episode_page.oit_moleld",
     movieTime: "1hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/movies/popular/07.webp"),
     title: "episode_page.another_danger",
     movieTime: "1hr: 30mins",
   },
@@ -884,27 +884,27 @@ export const populerSlider = [
 
 export const ottVerticleLatestMovies = [
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/top-10/01.webp"),
     title: "ott_home.lostti_n_sacee",
     movieTime: "2 hr 30 minute",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    image: generateImgPath("/assets/images/top-10/02.webp"),
     title: "ott_home.ret_Seap",
     movieTime: "3 hr: 0 minute",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    image: generateImgPath("/assets/images/top-10/03.webp"),
     title: "ott_home.X_Men",
     movieTime: "1 hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    image: generateImgPath("/assets/images/top-10/04.webp"),
     title: "ott_home.logan",
     movieTime: "1hr: 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    image: generateImgPath("/assets/images/top-10/05.webp"),
     title: "ott_home.black_queen",
     movieTime: "1hr: 45mins",
   },
@@ -912,27 +912,27 @@ export const ottVerticleLatestMovies = [
 
 export const verticleLatestMovies = [
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+    image: generateImgPath("/assets/images/top-10/05.webp"),
     title: "home.black_queen",
     movieTime: "2hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+    image: generateImgPath("/assets/images/top-10/06.webp"),
     title: "home.wars_dragons",
     movieTime: "3hr: 00mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+    image: generateImgPath("/assets/images/top-10/07.webp"),
     title: "home.the_escape",
     movieTime: "1hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+    image: generateImgPath("/assets/images/top-10/08.webp"),
     title: "home.x_men",
     movieTime: "1hr: 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+    image: generateImgPath("/assets/images/top-10/09.webp"),
     title: "home.logan",
     movieTime: "1hr: 45mins",
   },
@@ -940,37 +940,37 @@ export const verticleLatestMovies = [
 
 export const recommendedforYou = [
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/01.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/01.webp"),
     title: "episode_page.giikre",
     movieTime: "2hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/02.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/02.webp"),
     title: "episode_page.arrival",
     movieTime: "3hr: 00mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/03.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/03.webp"),
     title: "episode_page.pricess",
     movieTime: "1hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/04.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/04.webp"),
     title: "episode_page.soull_meate",
     movieTime: "2hr: 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/05.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/05.webp"),
     title: "episode_page.dangacg",
     movieTime: "1hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/06.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/06.webp"),
     title: "episode_page.crcikeft",
     movieTime: "2hr: 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/recommended/07.webp"),
+    image: generateImgPath("/assets/images/movies/recommended/07.webp"),
     title: "episode_page.avengrs",
     movieTime: "1hr: 45mins",
   },
@@ -978,7 +978,7 @@ export const recommendedforYou = [
 
 export const tabSlider = [
   {
-    image: generateImgPath("/public/assets/images/tab-slider/01.webp"),
+    image: generateImgPath("/assets/images/tab-slider/01.webp"),
     title: "ott_home.the_hunter",
     movieTime: "home.series_today",
     seasons: [
@@ -986,22 +986,22 @@ export const tabSlider = [
         title: "ott_home.season1",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/01.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/01.webp"),
             title: "detail_page.fire_and_blood",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/02.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/02.webp"),
             title: "detail_page.pointy_endr",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/03.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/03.webp"),
             title: "detail_page.win_or_die",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/04.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/04.webp"),
             title: "detail_page.black_queen",
             movieTime: "45 minutes",
           },
@@ -1011,22 +1011,22 @@ export const tabSlider = [
         title: "ott_home.season2",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/05.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/05.webp"),
             title: "detail_page.valar_morghulis",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/06.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/06.webp"),
             title: "detail_page.blackwater",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/07.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/07.webp"),
             title: "detail_page.ghost_harrenhal",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/08.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/08.webp"),
             title: "detail_page.garden_bones",
             movieTime: "45 minutes",
           },
@@ -1036,22 +1036,22 @@ export const tabSlider = [
         title: "ott_home.season3",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/09.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/09.webp"),
             title: "detail_page.mhysa",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/10.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/10.webp"),
             title: "detail_page.second_sons",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/11.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/11.webp"),
             title: "detail_page.the_climb",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/12.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/12.webp"),
             title: "detail_page.kissed_fire",
             movieTime: "45 minutes",
           },
@@ -1060,7 +1060,7 @@ export const tabSlider = [
     ],
   },
   {
-    image: generateImgPath("/public/assets/images/tab-slider/02.webp"),
+    image: generateImgPath("/assets/images/tab-slider/02.webp"),
     title: "detail_page.pirates_dayones",
     movieTime: "ott_home.series_yesterday",
     seasons: [
@@ -1068,22 +1068,22 @@ export const tabSlider = [
         title: "ott_home.season1",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/13.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/13.webp"),
             title: "detail_page.curse_pearl",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/14.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/14.webp"),
             title: "detail_page.dead_chest",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/15.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/15.webp"),
             title: "detail_page.at_world_end",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/16.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/16.webp"),
             title: "detail_page.stranger_tides",
             movieTime: "45 minutes",
           },
@@ -1093,22 +1093,22 @@ export const tabSlider = [
         title: "ott_home.season2",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/17.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/17.webp"),
             title: "detail_page.dead_men",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/18.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/18.webp"),
             title: "detail_page.tales_code",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/19.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/19.webp"),
             title: "detail_page.romance_dawn",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/20.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/20.webp"),
             title: "detail_page.man_straw",
             movieTime: "45 minutes",
           },
@@ -1118,22 +1118,22 @@ export const tabSlider = [
         title: "ott_home.season3",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/21.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/21.webp"),
             title: "detail_page.tell_tales",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/22.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/22.webp"),
             title: "detail_page.pirates_coming",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/23.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/23.webp"),
             title: "detail_page.eat_baratie",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/24.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/24.webp"),
             title: "detail_page.chef_chore",
             movieTime: "45 minutes",
           },
@@ -1142,7 +1142,7 @@ export const tabSlider = [
     ],
   },
   {
-    image: generateImgPath("/public/assets/images/tab-slider/03.webp"),
+    image: generateImgPath("/assets/images/tab-slider/03.webp"),
     title: "detail_page.peaky_blinders",
     movieTime: "ott_home.series_tomorrow",
     seasons: [
@@ -1150,22 +1150,22 @@ export const tabSlider = [
         title: "ott_home.season1",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/25.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/25.webp"),
             title: "detail_page.episode1",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/26.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/26.webp"),
             title: "detail_page.episode2",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/27.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/27.webp"),
             title: "detail_page.episode3",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/28.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/28.webp"),
             title: "detail_page.episode4",
             movieTime: "45 minutes",
           },
@@ -1175,22 +1175,22 @@ export const tabSlider = [
         title: "ott_home.season2",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/29.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/29.webp"),
             title: "detail_page.episode1",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/30.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/30.webp"),
             title: "detail_page.episode2",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/31.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/31.webp"),
             title: "detail_page.episode3",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/32.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/32.webp"),
             title: "detail_page.episode4",
             movieTime: "45 minutes",
           },
@@ -1200,22 +1200,22 @@ export const tabSlider = [
         title: "ott_home.season2",
         episodes: [
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/33.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/33.webp"),
             title: "detail_page.episode1",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/34.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/34.webp"),
             title: "detail_page.episode2",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/35.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/35.webp"),
             title: "detail_page.episode3",
             movieTime: "45 minutes",
           },
           {
-            image: generateImgPath("/public/assets/images/tv-show/season/36.webp"),
+            image: generateImgPath("/assets/images/tv-show/season/36.webp"),
             title: "detail_page.episode4",
             movieTime: "45 minutes",
           },
@@ -1227,37 +1227,37 @@ export const tabSlider = [
 
 export const topPics = [
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/01.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/01.webp"),
     title: "ott_home.frzzen",
     movieTime: "2hr : 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/02.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/02.webp"),
     title: "ott_home.the_crew",
     movieTime: "1hr : 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/03.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/03.webp"),
     title: "ott_home.cromeus",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/04.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/04.webp"),
     title: "ott_home.reodg",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/05.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/05.webp"),
     title: "ott_home.guiility",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/06.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/06.webp"),
     title: "ott_home.syyvcihonic",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/top-picks/07.webp"),
+    image: generateImgPath("/assets/images/movies/top-picks/07.webp"),
     title: "ott_home.tittanc",
     movieTime: "1hr : 30mins",
   },
@@ -1265,37 +1265,37 @@ export const topPics = [
 
 export const latestMovie = [
   {
-    image: generateImgPath("/public/assets/images/movies/latest/01.webp"),
+    image: generateImgPath("/assets/images/movies/latest/01.webp"),
     title: "detail_page.mortal_nories",
     movieTime: "2hr : 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/02.webp"),
+    image: generateImgPath("/assets/images/movies/latest/02.webp"),
     title: "detail_page.advetre",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/03.webp"),
+    image: generateImgPath("/assets/images/movies/latest/03.webp"),
     title: "detail_page.net_ailo",
     movieTime: "2hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/04.webp"),
+    image: generateImgPath("/assets/images/movies/latest/04.webp"),
     title: "detail_page.arrivaal",
     movieTime: "2hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/05.webp"),
+    image: generateImgPath("/assets/images/movies/latest/05.webp"),
     title: "ott_home.drama",
     movieTime: "1hr : 55mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/06.webp"),
+    image: generateImgPath("/assets/images/movies/latest/06.webp"),
     title: "detail_page.aune",
     movieTime: "1hr : 25mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/07.webp"),
+    image: generateImgPath("/assets/images/movies/latest/07.webp"),
     title: "detail_page.everest",
     movieTime: "1hr : 45mins",
   },
@@ -1303,37 +1303,37 @@ export const latestMovie = [
 
 export const suggested = [
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/01.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/01.webp"),
     title: "detail_page.choflief",
     movieTime: "2hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/02.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/02.webp"),
     title: "detail_page.lost",
     movieTime: "3hr : 0mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/03.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/03.webp"),
     title: "detail_page.red_hamald",
     movieTime: "1hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/04.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/04.webp"),
     title: "detail_page.pandap",
     movieTime: "2hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/05.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/05.webp"),
     title: "detail_page.femllaeemll",
     movieTime: "1hr : 55mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/06.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/06.webp"),
     title: "detail_page.ragnarorr",
     movieTime: "2hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/suggested/07.webp"),
+    image: generateImgPath("/assets/images/movies/suggested/07.webp"),
     title: "sonil",
     movieTime: "2hr : 15mins",
   },
@@ -1341,74 +1341,74 @@ export const suggested = [
 
 export const spacialLatestMovie = [
   {
-    image: generateImgPath("/public/assets/images/movies/latest/01.webp"),
+    image: generateImgPath("/assets/images/movies/latest/01.webp"),
     title: "detail_page.mortal_nories",
     movieTime: "2hr : 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/02.webp"),
+    image: generateImgPath("/assets/images/movies/latest/02.webp"),
     title: "detail_page.advetre",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/03.webp"),
+    image: generateImgPath("/assets/images/movies/latest/03.webp"),
     title: "detail_page.net_ailo",
     movieTime: "2hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/04.webp"),
+    image: generateImgPath("/assets/images/movies/latest/04.webp"),
     title: "detail_page.arrivaal",
     movieTime: "2hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/05.webp"),
+    image: generateImgPath("/assets/images/movies/latest/05.webp"),
     title: "detail_page.drama",
     movieTime: "1hr : 55mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/06.webp"),
+    image: generateImgPath("/assets/images/movies/latest/06.webp"),
     title: "detail_page.aune",
     movieTime: "1hr : 25mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/latest/07.webp"),
+    image: generateImgPath("/assets/images/movies/latest/07.webp"),
     title: "detail_page.everest",
     movieTime: "1hr : 45mins",
   },
 ];
 export const upcommingMovie = [
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/01.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/01.webp"),
     title: "detail_page.dinoosaur",
     movieTime: "2hr : 12mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/02.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/02.webp"),
     title: "detail_page.godilla",
     movieTime: "1hr : 22mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/03.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/03.webp"),
     title: "detail_page.batter_caill",
     movieTime: "1hr : 55mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/04.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/04.webp"),
     title: "detail_page.co_nouerllng",
     movieTime: "1hr : 30mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/05.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/05.webp"),
     title: "detail_page.fast_furious",
     movieTime: "2hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/06.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/06.webp"),
     title: "detail_page.spiderman",
     movieTime: "1hr : 45mins",
   },
   {
-    image: generateImgPath("/public/assets/images/movies/upcoming/07.webp"),
+    image: generateImgPath("/assets/images/movies/upcoming/07.webp"),
     title: "detail_page.onepeoc",
     movieTime: "2hr : 30mins",
   },

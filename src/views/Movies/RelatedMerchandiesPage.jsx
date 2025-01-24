@@ -40,7 +40,7 @@ const RelatedMerchandisePage = memo(() => {
   const shows = {
     id: 1,
     slug: t("episode_page.zombie_world"),
-    thumbnail: generateImgPath("/public/assets/images/genre/01.webp"),
+    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
     title: t("detail_page.zombie_island"),
     detail: t("restricted.zombie_desc"),
     season_type: `2 t("detail_page.season")`,
@@ -66,29 +66,29 @@ const RelatedMerchandisePage = memo(() => {
     cast: [
       {
         title: t("detail_page.james_chinlund"),
-        thumbnail: generateImgPath("/public/assets/images/genre/g1.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g1.webp"),
         as: t("detail_page.as_james"),
       },
       {
         title: t("detail_page.james_earl"),
-        thumbnail: generateImgPath("/public/assets/images/genre/g2.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g2.webp"),
         as: t("detail_page.as_jones"),
       },
     ],
     crew: [
       {
         title: t("detail_page.jeff_nathanson"),
-        thumbnail: generateImgPath("/public/assets/images/genre/g3.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g3.webp"),
         as: t("detail_page.writing"),
       },
       {
         title: t("detail_page.irene_mecchi"),
-        thumbnail: generateImgPath("/public/assets/images/genre/g5.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g5.webp"),
         as: t("detail_page.writing"),
       },
       {
         title: t("detail_page.karan_gilchrist"),
-        thumbnail: generateImgPath("/public/assets/images/genre/g4.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g4.webp"),
         as: t("detail_page.production"),
       },
     ],

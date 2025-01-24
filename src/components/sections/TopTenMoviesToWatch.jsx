@@ -14,43 +14,43 @@ const TopTenMoviesToWatch = memo(() => {
   const { t } = useTranslation();
   const [topTen] = useState([
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+      image: generateImgPath("/assets/images/top-ten-number/01.webp"),
       count: 1,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+      image: generateImgPath("/assets/images/top-ten-number/02.webp"),
       count: 2,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+      image: generateImgPath("/assets/images/top-ten-number/03.webp"),
       count: 3,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+      image: generateImgPath("/assets/images/top-ten-number/04.webp"),
       count: 4,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 37.png"),
+      image: generateImgPath("/assets/images/top-ten-number/05.webp"),
       count: 5,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 36.png"),
+      image: generateImgPath("/assets/images/top-ten-number/06.webp"),
       count: 6,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 41.png"),
+      image: generateImgPath("/assets/images/top-ten-number/07.webp"),
       count: 7,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 40.png"),
+      image: generateImgPath("/assets/images/top-ten-number/08.webp"),
       count: 8,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 39.png"),
+      image: generateImgPath("/assets/images/top-ten-number/09.webp"),
       count: 9,
     },
     {
-      image: generateImgPath("/public/assets/images/movies/Frame 38.png"),
+      image: generateImgPath("/assets/images/top-ten-number/10.webp"),
       count: 10,
     },
   ]);

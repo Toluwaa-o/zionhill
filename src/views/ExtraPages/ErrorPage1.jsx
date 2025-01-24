@@ -22,7 +22,7 @@ const ErrorPage1 = memo(() => {
             <Col lg="2"></Col>
             <Col lg="8">
               <img
-                src="/public/assets/images/pages/404.webp"
+                src="/assets/images/pages/404.webp"
                 alt="404"
                 loading="lazy"
               />
@@ -30,7 +30,7 @@ const ErrorPage1 = memo(() => {
                 className="py-3 text-center mt-5 mb-4"
                 style={{
                   background: `url(${generateImgPath(
-                    "/public/assets/images/pages/404-bg-patten.webp"
+                    "/assets/images/pages/404-bg-patten.webp"
                   )})`,
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center center",

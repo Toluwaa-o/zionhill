@@ -16,9 +16,9 @@ import Swal from "sweetalert2";
 import "sweetalert2/src/sweetalert2.scss";
 
 // img
-import img1 from "/public/assets/images/shop/product/08.webp";
-import img2 from "/public/assets/images/shop/product/09.webp";
-import img3 from "/public/assets/images/shop/product/10.webp";
+import img1 from "/assets/images/shop/product/08.webp";
+import img2 from "/assets/images/shop/product/09.webp";
+import img3 from "/assets/images/shop/product/10.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";

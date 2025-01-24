@@ -50,27 +50,27 @@ const AudioBlog = memo(() => {
   }
   const gallery = [
     {
-      img: generateImgPath("/public/assets/images/blog/blog1.webp"),
+      img: generateImgPath("/assets/images/blog/blog1.webp"),
       class: "mb-4",
     },
     {
-      img: generateImgPath("/public/assets/images/blog/blog2.webp"),
+      img: generateImgPath("/assets/images/blog/blog2.webp"),
       class: "mb-4",
     },
     {
-      img: generateImgPath("/public/assets/images/blog/blog3.webp"),
+      img: generateImgPath("/assets/images/blog/blog3.webp"),
       class: "mb-4",
     },
     {
-      img: generateImgPath("/public/assets/images/blog/blog4.webp"),
+      img: generateImgPath("/assets/images/blog/blog4.webp"),
       class: "mb-4 mb-md-0",
     },
     {
-      img: generateImgPath("/public/assets/images/blog/blog5.webp"),
+      img: generateImgPath("/assets/images/blog/blog5.webp"),
       class: "mb-4 mb-md-0",
     },
     {
-      img: generateImgPath("/public/assets/images/blog/Fantacy.webp"),
+      img: generateImgPath("/assets/images/blog/Fantacy.webp"),
       class: "",
     },
   ];

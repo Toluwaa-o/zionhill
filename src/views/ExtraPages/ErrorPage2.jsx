@@ -20,7 +20,7 @@ const ErrorPage2 = memo(() => {
         className="section-padding vh-100 image-flip-rtl"
         style={{
           backgroundImage: `url(${generateImgPath(
-            "/public/assets/images/pages/404-two.webp"
+            "/assets/images/pages/404-two.webp"
           )})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -33,7 +33,7 @@ const ErrorPage2 = memo(() => {
             <Col lg="6"></Col>
             <Col lg="5">
               <img
-                src="/public/assets/images/pages/404-text.webp"
+                src="/assets/images/pages/404-text.webp"
                 alt="404"
                 loading="lazy"
                 className="mb-5"

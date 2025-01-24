@@ -17,72 +17,72 @@ const ViewAll = memo(() => {
   const { t } = useTranslation();
   const viewAll = [
     {
-      image: generateImgPath("/public/assets/images/movies/related/01.webp"),
+      image: generateImgPath("/assets/images/movies/related/01.webp"),
       title: "episode_page.giikre",
       movieTime: "2hr: 12mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/02.webp"),
+      image: generateImgPath("/assets/images/movies/related/02.webp"),
       title: "episode_page.yoshi",
       movieTime: "1hr: 22mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/03.webp"),
+      image: generateImgPath("/assets/images/movies/related/03.webp"),
       title: "episode_page.we_gare",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/04.webp"),
+      image: generateImgPath("/assets/images/movies/related/04.webp"),
       title: "episode_page.avengers",
       movieTime: "1hr: 45mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/05.webp"),
+      image: generateImgPath("/assets/images/movies/related/05.webp"),
       title: "episode_page.chosfies",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/06.webp"),
+      image: generateImgPath("/assets/images/movies/related/06.webp"),
       title: "episode_page.tf_oaler",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/related/07.webp"),
+      image: generateImgPath("/assets/images/movies/related/07.webp"),
       title: "episode_page.another_danger",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/01.webp"),
+      image: generateImgPath("/assets/images/movies/popular/01.webp"),
       title: "episode_page.crw",
       movieTime: "2hr: 12mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/02.webp"),
+      image: generateImgPath("/assets/images/movies/popular/02.webp"),
       title: "episode_page.batte_wiire",
       movieTime: "1hr: 22mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/03.webp"),
+      image: generateImgPath("/assets/images/movies/popular/03.webp"),
       title: "episode_page.goal",
       movieTime: "2hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/04.webp"),
+      image: generateImgPath("/assets/images/movies/popular/04.webp"),
       title: "episode_page.dandacg",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/05.webp"),
+      image: generateImgPath("/assets/images/movies/popular/05.webp"),
       title: "episode_page.mexcan",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/06.webp"),
+      image: generateImgPath("/assets/images/movies/popular/06.webp"),
       title: "episode_page.oit_moleld",
       movieTime: "1hr: 30mins",
     },
     {
-      image: generateImgPath("/public/assets/images/movies/popular/07.webp"),
+      image: generateImgPath("/assets/images/movies/popular/07.webp"),
       title: "episode_page.Another Danger",
       movieTime: "1hr: 30mins",
     },

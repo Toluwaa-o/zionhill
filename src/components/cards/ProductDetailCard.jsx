@@ -37,19 +37,19 @@ const ProductDetailCard = memo((props) => {
   const product = [
     {
       id: "01",
-      thumbnail: generateImgPath("/public/assets/images/shop/product/01.webp"),
+      thumbnail: generateImgPath("/assets/images/shop/product/01.webp"),
     },
     {
       id: "02",
-      thumbnail: generateImgPath("/public/assets/images/shop/product/02.webp"),
+      thumbnail: generateImgPath("/assets/images/shop/product/02.webp"),
     },
     {
       id: "03",
-      thumbnail: generateImgPath("/public/assets/images/shop/product/03.webp"),
+      thumbnail: generateImgPath("/assets/images/shop/product/03.webp"),
     },
     {
       id: "04",
-      thumbnail: generateImgPath("/public/assets/images/shop/product/04.webp"),
+      thumbnail: generateImgPath("/assets/images/shop/product/04.webp"),
     },
   ];
 
@@ -333,7 +333,7 @@ const ProductDetailCard = memo((props) => {
                           <div className="d-flex flex-sm-row flex-column align-items-sm-center align-items-start gap-4">
                             <div className="user-image flex-shrink-0">
                               <img
-                                src="/public/assets/images/shop/avatar.webp"
+                                src="/assets/images/shop/avatar.webp"
                                 alt=""
                               />
                             </div>
@@ -360,7 +360,7 @@ const ProductDetailCard = memo((props) => {
                           <div className="d-flex flex-sm-row flex-column align-items-sm-center align-items-start gap-4">
                             <div className="user-image flex-shrink-0">
                               <img
-                                src="/public/assets/images/shop/avatar.webp"
+                                src="/assets/images/shop/avatar.webp"
                                 alt=""
                               />
                             </div>

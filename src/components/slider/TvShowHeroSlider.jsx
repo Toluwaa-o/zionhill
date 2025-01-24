@@ -18,9 +18,9 @@ import { theme_scheme_direction } from "../../store/setting/selectors";
 import FsLightbox from "fslightbox-react";
 
 //img
-import img1 from "/public/assets/images/tv-show/banner-1.webp";
-import img2 from "/public/assets/images/tv-show/banner-2.webp";
-import img3 from "/public/assets/images/tv-show/banner-3.webp";
+import img1 from "/assets/images/tv-show/banner-1.webp";
+import img2 from "/assets/images/tv-show/banner-2.webp";
+import img3 from "/assets/images/tv-show/banner-3.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";
@@ -457,7 +457,7 @@ const TvShowHeroSlider = memo(() => {
 
       <FsLightbox
         toggler={toggler}
-        sources={["/public/assets/images/video/trailer.mp4"]}
+        sources={["/assets/images/video/trailer.mp4"]}
       />
     </Fragment>
   );

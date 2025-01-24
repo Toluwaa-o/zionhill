@@ -35,7 +35,7 @@ const RestrictedPage = memo(() => {
   const shows = {
     id: 1,
     slug: "zombie-world",
-    thumbnail: generateImgPath("/public/assets/images/tags/07.webp"),
+    thumbnail: generateImgPath("/assets/images/tags/07.webp"),
     title: "episode_page.zombie_world",
     detail: "detail_page.movie_desc",
     season_type: "2 Season",
@@ -52,29 +52,29 @@ const RestrictedPage = memo(() => {
     cast: [
       {
         title: "ott_home.james_chinlund",
-        thumbnail: generateImgPath("/public/assets/images/genre/g1.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g1.webp"),
         as: "detail_page.as_james",
       },
       {
         title: "detail_page.james_earl",
-        thumbnail: generateImgPath("/public/assets/images/genre/g2.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g2.webp"),
         as: "detail_page.as_jones",
       },
     ],
     crew: [
       {
         title: "detail_page.jeff_nathanson",
-        thumbnail: generateImgPath("/public/assets/images/genre/g3.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g3.webp"),
         as: "detail_page.writing",
       },
       {
         title: "detail_page.jeff_nathanson",
-        thumbnail: generateImgPath("/public/assets/images/genre/g5.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g5.webp"),
         as: "detail_page.writing",
       },
       {
         title: "detail_page.jeff_nathanson",
-        thumbnail: generateImgPath("/public/assets/images/genre/g4.webp"),
+        thumbnail: generateImgPath("/assets/images/genre/g4.webp"),
         as: "detail_page.production",
       },
     ],

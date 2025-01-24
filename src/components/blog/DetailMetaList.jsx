@@ -44,7 +44,7 @@ const DetailMetaList = memo(() => {
         <FollowUs />
         <div className="widget text-center">
           <Link to="/shop">
-            <img src="/public/assets/images/blog/01.webp" />
+            <img src="/assets/images/blog/01.webp" />
           </Link>
         </div>
       </div>

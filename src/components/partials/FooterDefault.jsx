@@ -10,8 +10,8 @@ import { Link, useLocation } from "react-router-dom";
 import Logo from "../logo";
 
 // image
-import apple from "/public/assets/images/footer/apple.webp";
-import playstore from "/public/assets/images/footer/google-play.webp";
+import apple from "/assets/images/footer/apple.webp";
+import playstore from "/assets/images/footer/google-play.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";

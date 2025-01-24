@@ -34,7 +34,7 @@ const Blogtemplate = memo(() => {
             <Col lg="8" sm="12">
               <div className="blog-box">
                 <img
-                  src="/public/assets/images/blog/blog2.webp"
+                  src="/assets/images/blog/blog2.webp"
                   className="img-fluid mb-4 pb-3 rounded"
                 />
                 <div className="d-flex align-items-center justify-content-between gap-2">
