@@ -14,32 +14,32 @@ const ContinueWatching = memo(() => {
   const { t } = useTranslation();
   const [watching, setWatching] = useState([
     {
-      image: generateImgPath("/assets/images/continue-watch/01.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 37.png"),
       value: 50,
       leftTime: "70 of 230 m",
     },
     {
-      image: generateImgPath("/assets/images/continue-watch/02.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 38.png"),
       value: 90,
       leftTime: "120 of 130 m",
     },
     {
-      image: generateImgPath("/assets/images/continue-watch/03.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 39.png"),
       value: 60,
       leftTime: "60 of 134 m",
     },
     {
-      image: generateImgPath("/assets/images/continue-watch/04.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 40.png"),
       value: 30,
       leftTime: "60 of 134 m",
     },
     {
-      image: generateImgPath("/assets/images/continue-watch/05.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 41.png"),
       value: 95,
       leftTime: "45 of 157 m",
     },
     {
-      image: generateImgPath("/assets/images/continue-watch/06.webp"),
+      image: generateImgPath("/assets/images/movies/Frame 37.png"),
       value: 100,
       leftTime: "70 of 230 m",
     },
