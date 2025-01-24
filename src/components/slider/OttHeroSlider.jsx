@@ -12,8 +12,8 @@ import { Navigation, Thumbs } from "swiper";
 
 // img
 import ott1 from "/assets/images/movies/worship.jpg";
-import ott2 from "/assets/images/movies/ott2.webp";
-import ott3 from "/assets/images/movies/ott3.webp";
+import ott2 from "/assets/images/movies/Frame 37.png";
+import ott3 from "/assets/images/movies/Frame 38.png";
 import logo from "/assets/images/movies/imdb-logo.svg";
 
 // Redux Selector / Action
@@ -24,6 +24,14 @@ import { theme_scheme_direction } from "../../store/setting/selectors";
 import { useTranslation } from "react-i18next";
 
 const OttHeroSlider = memo(() => {
+  const imgs = [
+    "/assets/images/movies/Frame 36.png",
+    "/assets/images/movies/Frame 37.png",
+    "/assets/images/movies/Frame 38.png",
+    "/assets/images/movies/Frame 39.png",
+    "/assets/images/movies/Frame 40.png",
+    "/assets/images/movies/Frame 41.png",
+  ]
   const { t } = useTranslation();
   const themeSchemeDirection = useSelector(theme_scheme_direction);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
