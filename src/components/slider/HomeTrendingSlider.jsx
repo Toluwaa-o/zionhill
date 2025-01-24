@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 import TrendingShimer from "../card/shimmer/trending-shimmer";
 
 // img
-import logo from "/assets/images/zionhill-TV.png";
-import trendinglabel from "/assets/images/trending/trending-label.png";
+import logo from "/public/assets/images/zionhill-TV.png";
+import trendinglabel from "/public/assets/images/trending/trending-label.png";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

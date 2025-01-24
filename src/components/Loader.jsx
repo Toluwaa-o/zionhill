@@ -1,7 +1,7 @@
 import { Fragment, memo } from "react";
 
 // img
-import LoaderGif from '/assets/images/loader.gif'
+import LoaderGif from '/public/assets/images/loader.gif'
 
 const Loader = memo(() => {
   return (

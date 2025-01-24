@@ -23,10 +23,10 @@ import { useSelector } from "react-redux";
 import { theme_scheme_direction } from "../../store/setting/selectors";
 
 // img
-import img1 from "/assets/images/shop/card/capton-america.webp";
-import img2 from "/assets/images/shop/card/deadpool.webp";
-import img3 from "/assets/images/shop/card/multipal.webp";
-import location from "/assets/images/shop/card/location.webp";
+import img1 from "/public/assets/images/shop/card/capton-america.webp";
+import img2 from "/public/assets/images/shop/card/deadpool.webp";
+import img3 from "/public/assets/images/shop/card/multipal.webp";
+import location from "/public/assets/images/shop/card/location.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";

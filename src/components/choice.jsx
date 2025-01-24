@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 //choices
 import Choices from 'choices.js'
-// import '../assets/custom/css/choices.css'
+// import '../public/assets/custom/css/choices.css'
 
 const ChoicesJs = memo((props) => {
     const single = createRef()

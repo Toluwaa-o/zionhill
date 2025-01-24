@@ -20,7 +20,7 @@ const CommingSoonPage = memo(() => {
         className="section-padding height-auto-100 image-flip-rtl"
         style={{
           backgroundImage: `url(${generateImgPath(
-            "/assets/images/pages/coming-soon.webp"
+            "/public/assets/images/pages/coming-soon.webp"
           )})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

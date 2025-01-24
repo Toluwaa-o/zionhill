@@ -155,7 +155,7 @@ const ContactPage = memo(() => {
             <Col lg="4" md="6">
               <div className="contact-box d-flex gap-3 rounded mb-3 mb-lg-0">
                 <img
-                  src="/assets/images/pages/box-pattern.webp"
+                  src="/public/assets/images/pages/box-pattern.webp"
                   className="img-fluid position-absolute top-0 end-0"
                   alt="pattern"
                 />
@@ -196,7 +196,7 @@ const ContactPage = memo(() => {
             <Col lg="4" md="6">
               <div className="contact-box d-flex gap-3 rounded mb-3 mb-lg-0">
                 <img
-                  src="/assets/images/pages/box-pattern.webp"
+                  src="/public/assets/images/pages/box-pattern.webp"
                   className="img-fluid position-absolute top-0 end-0"
                   alt="pattern"
                 />
@@ -237,7 +237,7 @@ const ContactPage = memo(() => {
             <Col lg="4" md="6">
               <div className="contact-box d-flex gap-3 rounded">
                 <img
-                  src="/assets/images/pages/box-pattern.webp"
+                  src="/public/assets/images/pages/box-pattern.webp"
                   className="img-fluid position-absolute top-0 end-0"
                   alt="pattern"
                 />

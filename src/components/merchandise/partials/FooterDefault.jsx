@@ -150,16 +150,16 @@ const MerchandiseFooter = memo(() => {
                     </p>
                     <ul className="list-inline d-flex align-items-center flex-wrap gap-3 m-0">
                       <li>
-                        <img src="/assets/images/footer/01.webp" alt="visa" />
+                        <img src="/public/assets/images/footer/01.webp" alt="visa" />
                       </li>
                       <li>
-                        <img src="/assets/images/footer/02.webp" alt="visa" />
+                        <img src="/public/assets/images/footer/02.webp" alt="visa" />
                       </li>
                       <li>
-                        <img src="/assets/images/footer/03.webp" alt="visa" />
+                        <img src="/public/assets/images/footer/03.webp" alt="visa" />
                       </li>
                       <li>
-                        <img src="/assets/images/footer/04.webp" alt="visa" />
+                        <img src="/public/assets/images/footer/04.webp" alt="visa" />
                       </li>
                     </ul>
                   </div>

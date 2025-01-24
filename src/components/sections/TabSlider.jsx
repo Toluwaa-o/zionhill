@@ -56,7 +56,7 @@ const TabSlider = memo(() => {
                           <div className="d-flex align-items-center gap-3 mb-4">
                             <Link to="">
                               <img
-                                src="/assets/images/movies/trending-label.webp"
+                                src="/public/assets/images/movies/trending-label.webp"
                                 className="img-fluid"
                                 alt=""
                               />

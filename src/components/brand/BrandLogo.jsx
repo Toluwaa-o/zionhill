@@ -10,7 +10,7 @@ const BrandLogo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src="/assets/images/logo.webp"
+            src="/public/assets/images/logo.webp"
             loading="lazy"
             alt="zionhill tv"
           />
@@ -20,7 +20,7 @@ const BrandLogo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src="/assets/images/logo-hotstar.webp"
+            src="/public/assets/images/logo-hotstar.webp"
             loading="lazy"
             alt="zionhill tv"
           />
@@ -30,7 +30,7 @@ const BrandLogo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src="/assets/images/logo-prime.webp"
+            src="/public/assets/images/logo-prime.webp"
             loading="lazy"
             alt="zionhill tv"
           />
@@ -40,7 +40,7 @@ const BrandLogo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src="/assets/images/logo-hulu.webp"
+            src="/public/assets/images/logo-hulu.webp"
             loading="lazy"
             alt="zionhill tv"
           />

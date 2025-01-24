@@ -11,9 +11,9 @@ import BreadCrumbWidget from "../../components/BreadcrumbWidget";
 import CustomButton from "../../components/CustomButton";
 
 // img
-import img1 from "/assets/images/shop/product/01.webp";
-import img2 from "/assets/images/shop/product/02.webp";
-import img3 from "/assets/images/shop/product/03.webp";
+import img1 from "/public/assets/images/shop/product/01.webp";
+import img2 from "/public/assets/images/shop/product/02.webp";
+import img3 from "/public/assets/images/shop/product/03.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";

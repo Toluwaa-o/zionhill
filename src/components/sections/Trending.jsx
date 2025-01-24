@@ -30,56 +30,56 @@ const Trending = memo(() => {
 
   const [trendingSlider] = useState([
     {
-      image: generateImgPath("/assets/images/movies/ott1.webp"),
+      image: generateImgPath("/public/assets/images/movies/ott1.webp"),
     },
     {
-      image: generateImgPath("/assets/images/movies/ott2.webp"),
+      image: generateImgPath("/public/assets/images/movies/ott2.webp"),
     },
     {
-      image: generateImgPath("/assets/images/movies/ott3.webp"),
+      image: generateImgPath("/public/assets/images/movies/ott3.webp"),
     },
     {
-      image: generateImgPath("/assets/images/movies/banner1.webp"),
+      image: generateImgPath("/public/assets/images/movies/banner1.webp"),
     },
     {
-      image: generateImgPath("/assets/images/movies/banner2.webp"),
+      image: generateImgPath("/public/assets/images/movies/banner2.webp"),
     },
     {
-      image: generateImgPath("/assets/images/movies/banner3.webp"),
+      image: generateImgPath("/public/assets/images/movies/banner3.webp"),
     },
   ]);
 
   const [episode] = useState([
     {
-      image: "/assets/images/tv-show/episodes/01.webp",
+      image: "/public/assets/images/tv-show/episodes/01.webp",
       showEpisod: "S01E01",
       episodDate: `${t('detail_page.october')} 1, 2022`,
       episodTime: "45min",
       episodTitle: "detail_page.episode1",
     },
     {
-      image: "/assets/images/tv-show/episodes/02.webp",
+      image: "/public/assets/images/tv-show/episodes/02.webp",
       showEpisod: "S01E02",
       episodDate: `${t('detail_page.october')}  8, 2022`,
       episodTime: "35min",
       episodTitle: "detail_page.episode2",
     },
     {
-      image: "/assets/images/tv-show/episodes/03.webp",
+      image: "/public/assets/images/tv-show/episodes/03.webp",
       showEpisod: "S01E03",
       episodDate: `${t('detail_page.october')}  15, 2022`,
       episodTime: "36min",
       episodTitle: "detail_page.episode3",
     },
     {
-      image: "/assets/images/tv-show/episodes/04.webp",
+      image: "/public/assets/images/tv-show/episodes/04.webp",
       showEpisod: "S01E04",
       episodDate: `${t('detail_page.october')}  22, 2022`,
       episodTime: "41min",
       episodTitle: "detail_page.episode4",
     },
     {
-      image: "/assets/images/tv-show/episodes/05.webp",
+      image: "/public/assets/images/tv-show/episodes/05.webp",
       showEpisod: "S01E05",
       episodDate: `${t('detail_page.october')} 22, 2022`,
       episodTime: "41min",
@@ -217,7 +217,7 @@ const Trending = memo(() => {
                                           <div className="d-flex align-items-center flex-wrap series mb-4 gap-3">
                                             <router-link to="#">
                                               <img
-                                                src="/assets/images/movies/trending-label.webp"
+                                                src="/public/assets/images/movies/trending-label.webp"
                                                 className="img-fluid"
                                                 alt=""
                                               />
@@ -364,7 +364,7 @@ const Trending = memo(() => {
                                             <div className="tab-watch-trailer-container d-inline-block rounded-3 overflow-hidden">
                                               <div className="tab-watch-trailer position-relative rounded-3 overflow-hidden">
                                                 <img
-                                                  src="/assets/images/tv-show/season/01.webp"
+                                                  src="/public/assets/images/tv-show/season/01.webp"
                                                   className="trailer-image"
                                                   alt="trailer-image"
                                                 />
@@ -490,7 +490,7 @@ const Trending = memo(() => {
       </section>
       <FsLightbox
         toggler={toggler}
-        sources={["/assets/images/video/trailer.mp4"]}
+        sources={["/public/assets/images/video/trailer.mp4"]}
       />
     </Fragment>
   );

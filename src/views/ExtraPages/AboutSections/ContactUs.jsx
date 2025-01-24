@@ -7,7 +7,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 // img
-import img1 from "/assets/images/pages/map.webp";
+import img1 from "/public/assets/images/pages/map.webp";
 
 // the hook
 import { useTranslation } from "react-i18next";

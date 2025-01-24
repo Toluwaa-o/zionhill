@@ -34,7 +34,7 @@ export const blogsDetails = [
       id: 2,
       slug: "audio-blog",
       detail: `<div className="blog-content">
-    <img src="/assets/images/blog/audio.webp" className="img-fluid mb-5" alt="01">
+    <img src="/public/assets/images/blog/audio.webp" className="img-fluid mb-5" alt="01">
                         <p><strong>Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui
                               mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc
                               volutpat suscipit.</strong></p>
@@ -166,7 +166,7 @@ export const blogsDetails = [
       id: 6,
       slug: "quote-blog",
       detail: `<div className="blog-content">
-    <img src="/assets/images/blog/audio.webp" className="img-fluid mb-5" alt="01">
+    <img src="/public/assets/images/blog/audio.webp" className="img-fluid mb-5" alt="01">
                         <p><strong>Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui
                               mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc
                               volutpat suscipit.</strong></p>
@@ -210,33 +210,33 @@ export const blogsDetails = [
       detail: `<div className="blog-content">
       <ul className="row row-cols-1 row-cols-sm-2 row-cols-md-3 list-unstyled">
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/1.webp">
-        <img className="img-fluid" src="/assets/images/blog/1.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/1.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/1.webp" alt="blog-gallery" />
       </a>
     </li>
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/2.webp">
-        <img className="img-fluid" src="/assets/images/blog/2.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/2.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/2.webp" alt="blog-gallery" />
       </a>
     </li>
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/3.webp">
-        <img className="img-fluid" src="/assets/images/blog/3.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/3.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/3.webp" alt="blog-gallery" />
       </a>
     </li>
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/4.webp">
-        <img className="img-fluid" src="/assets/images/blog/4.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/4.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/4.webp" alt="blog-gallery" />
       </a>
     </li>
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/5.webp">
-        <img className="img-fluid" src="/assets/images/blog/5.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/5.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/5.webp" alt="blog-gallery" />
       </a>
     </li>
     <li className="col mb-4">
-      <a data-fslightbox="gallery" href="/assets/images/blog/Fantacy.webp">
-        <img className="img-fluid" src="/assets/images/blog/Fantacy.webp" alt="blog-gallery" />
+      <a data-fslightbox="gallery" href="/public/assets/images/blog/Fantacy.webp">
+        <img className="img-fluid" src="/public/assets/images/blog/Fantacy.webp" alt="blog-gallery" />
       </a>
     </li>
   </ul>
@@ -313,7 +313,7 @@ export const blogsDetails = [
           <div class="row my-5">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            <div class="position-relative padding-200" style="background-image: url(../assets/images/pages/bg-rectangle.webp); background-size:cover">
+            <div class="position-relative padding-200" style="background-image: url(../public/assets/images/pages/bg-rectangle.webp); background-size:cover">
               <div class="iq-popup-video">
                  <div class="iq-video-icon position-absolute ">
                     <div class="iq-video bg-primary position-absolute text-center d-inline-block iq-fslightbox-img">

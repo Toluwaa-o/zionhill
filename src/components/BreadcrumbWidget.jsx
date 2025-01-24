@@ -7,7 +7,7 @@ import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 import { generateImgPath } from "../StaticData/data";
 
 //img
-const imagePath = generateImgPath("/assets/images/pages/01.webp");
+const imagePath = generateImgPath("/public/assets/images/pages/01.webp");
 // the hook
 import { useTranslation } from "react-i18next";
 

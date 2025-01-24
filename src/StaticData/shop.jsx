@@ -3,15 +3,15 @@ import { generateImgPath } from "./data";
 export const heroSlider = [
   {
     id: 1,
-    thumbnail: generateImgPath("/assets/images/shop/slider-01.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/slider-01.webp"),
   },
   {
     id: 2,
-    thumbnail: generateImgPath("/assets/images/shop/slider-02.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/slider-02.webp"),
   },
   {
     id: 3,
-    thumbnail: generateImgPath("/assets/images/shop/slider-03.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/slider-03.webp"),
   },
 ];
 
@@ -19,68 +19,68 @@ export const category = [
   {
     id: 1,
     title: "merchandise.activeman",
-    image: generateImgPath("/assets/images/shop/categories/01.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/01.webp"),
   },
   {
     id: 2,
     title: "merchandise.avengers",
-    image: generateImgPath("/assets/images/shop/categories/02.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/02.webp"),
   },
   {
     id: 3,
     title: "merchandise.disney_world",
-    image: generateImgPath("/assets/images/shop/categories/03.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/03.webp"),
   },
   {
     id: 4,
     title: "merchandise.fantasia",
-    image: generateImgPath("/assets/images/shop/categories/04.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/04.webp"),
   },
 
   {
     id: 6,
     title: "merchandise.galaxy_heaven",
-    image: generateImgPath("/assets/images/shop/categories/05.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/05.webp"),
   },
   {
     id: 7,
     title: "merchandise.ghost_spider",
-    image: generateImgPath("/assets/images/shop/categories/06.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/06.webp"),
   },
   {
     id: 8,
     title: "merchandise.harry_david",
-    image: generateImgPath("/assets/images/shop/categories/07.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/07.webp"),
   },
   {
     id: 9,
     title: "merchandise.haunted_halloween",
-    image: generateImgPath("/assets/images/shop/categories/08.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/08.webp"),
   },
   {
     id: 10,
     title: "merchandise.studios",
-    image: generateImgPath("/assets/images/shop/categories/09.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/09.webp"),
   },
   {
     id: 11,
     title: "merchandise.monster_house",
-    image: generateImgPath("/assets/images/shop/categories/11.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/11.webp"),
   },
   {
     id: 12,
     title: "merchandise.quid_game",
-    image: generateImgPath("/assets/images/shop/categories/12.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/12.webp"),
   },
   {
     id: 13,
     title: "merchandise.the_madrid",
-    image: generateImgPath("/assets/images/shop/categories/14.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/14.webp"),
   },
   {
     id: 14,
     title: "merchandise.the_chapion",
-    image: generateImgPath("/assets/images/shop/categories/15.webp"),
+    image: generateImgPath("/public/assets/images/shop/categories/15.webp"),
   },
 ];
 
@@ -89,7 +89,7 @@ export const products = [
     id: 1,
     slug: "bag-pack",
     product_name: "shop.bag_pack",
-    thumbnail: generateImgPath("/assets/images/shop/product/01.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/01.webp"),
     descriptio:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.",
     stock_status: "In Stock",
@@ -117,7 +117,7 @@ export const products = [
     id: 2,
     slug: "believe-mask",
     product_name: "shop.believe_mask",
-    thumbnail: generateImgPath("/assets/images/shop/product/02.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/02.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -145,7 +145,7 @@ export const products = [
     id: 3,
     slug: "black-bow",
     product_name: "shop.black_bow",
-    thumbnail: generateImgPath("/assets/images/shop/product/03.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/03.webp"),
     descriptio:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.",
     stock_status: "In Stock",
@@ -182,7 +182,7 @@ export const products = [
     id: 4,
     slug: "black-cap",
     product_name: "shop.black_cap",
-    thumbnail: generateImgPath("/assets/images/shop/product/04.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/04.webp"),
     category: ["merchandise.marvel_studios", "harry-david", "warner-bros-films"],
     stock_status: "In Stock",
     descriptio:
@@ -210,7 +210,7 @@ export const products = [
     id: 5,
     slug: "boxing-gloves",
     product_name: "shop.boxing_gloves",
-    thumbnail: generateImgPath("/assets/images/shop/product/05.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/05.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -238,7 +238,7 @@ export const products = [
     id: 6,
     slug: "carry-bag",
     product_name: "shop.carry_bag",
-    thumbnail: generateImgPath("/assets/images/shop/product/06.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/06.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -265,7 +265,7 @@ export const products = [
     id: 7,
     slug: "cartoon-character",
     product_name: "shop.cartoon_character",
-    thumbnail: generateImgPath("/assets/images/shop/product/07.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/07.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -292,7 +292,7 @@ export const products = [
     id: 8,
     slug: "coffee-cap",
     product_name: "shop.coffee_cup",
-    thumbnail: generateImgPath("/assets/images/shop/product/08.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/08.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -319,7 +319,7 @@ export const products = [
     id: 9,
     slug: "crown",
     product_name: "shop.crown",
-    thumbnail: generateImgPath("/assets/images/shop/product/09.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/09.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -346,7 +346,7 @@ export const products = [
     id: 10,
     slug: "daily-diary",
     product_name: "shop.daily_diary",
-    thumbnail: generateImgPath("/assets/images/shop/product/10.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/10.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -373,7 +373,7 @@ export const products = [
     id: 11,
     slug: "face-paint-book",
     product_name: "shop.face_paint_book",
-    thumbnail: generateImgPath("/assets/images/shop/product/17.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/17.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -400,7 +400,7 @@ export const products = [
     id: 12,
     slug: "spider-cover",
     product_name: "shop.spider_cover",
-    thumbnail: generateImgPath("/assets/images/shop/product/26.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/26.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -427,7 +427,7 @@ export const products = [
     id: 13,
     slug: "sleeping-mask",
     product_name: "shop.sleeping_mask",
-    thumbnail: generateImgPath("/assets/images/shop/product/24.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/24.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -454,7 +454,7 @@ export const products = [
     id: 14,
     slug: "phone-cover",
     product_name: "shop.phone_cover",
-    thumbnail: generateImgPath("/assets/images/shop/product/20.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/20.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -481,7 +481,7 @@ export const products = [
     id: 15,
     slug: "mug",
     product_name: "shop.mug",
-    thumbnail: generateImgPath("/assets/images/shop/product/13.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/13.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -508,7 +508,7 @@ export const products = [
     id: 16,
     slug: "round-badges",
     product_name: "shop.round_badges",
-    thumbnail: generateImgPath("/assets/images/shop/product/22.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/22.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -535,7 +535,7 @@ export const products = [
     id: 17,
     slug: "round-neck-t-shirt",
     product_name: "shop.round_t_shirt",
-    thumbnail: generateImgPath("/assets/images/shop/product/10.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/10.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -562,7 +562,7 @@ export const products = [
     id: 18,
     slug: "floral-badges",
     product_name: "shop.floral_badges",
-    thumbnail: generateImgPath("/assets/images/shop/product/11.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/11.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -589,7 +589,7 @@ export const products = [
     id: 19,
     slug: "glossy-mug",
     product_name: "shop.glossy_mug",
-    thumbnail: generateImgPath("/assets/images/shop/product/13.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/13.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -616,7 +616,7 @@ export const products = [
     id: 20,
     slug: "magazine",
     product_name: "shop.magazine",
-    thumbnail: generateImgPath("/assets/images/shop/product/18.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/18.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -643,7 +643,7 @@ export const products = [
     id: 21,
     slug: "ghost-cap",
     product_name: "shop.ghost_cap",
-    thumbnail: generateImgPath("/assets/images/shop/product/12.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/12.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -670,7 +670,7 @@ export const products = [
     id: 22,
     slug: "spider-pillow",
     product_name: "shop.spider_pillow",
-    thumbnail: generateImgPath("/assets/images/shop/product/27.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/27.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -697,7 +697,7 @@ export const products = [
     id: 23,
     slug: "harry-t-shirt",
     product_name: "shop.harry_t_shirt",
-    thumbnail: generateImgPath("/assets/images/shop/product/15.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/15.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -734,7 +734,7 @@ export const products = [
     id: 24,
     slug: "magic-hat",
     product_name: "shop.magic_hat",
-    thumbnail: generateImgPath("/assets/images/shop/product/19.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/19.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -761,7 +761,7 @@ export const products = [
     id: 25,
     slug: "green-specs",
     product_name: "shop.green_specs",
-    thumbnail: generateImgPath("/assets/images/shop/product/14.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/14.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -788,7 +788,7 @@ export const products = [
     id: 26,
     slug: "sunglasses",
     product_name: "shop.sunglasses",
-    thumbnail: generateImgPath("/assets/images/shop/product/28.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/28.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -815,7 +815,7 @@ export const products = [
     id: 27,
     slug: "keychain",
     product_name: "shop.keychain",
-    thumbnail: generateImgPath("/assets/images/shop/product/16.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/16.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -842,7 +842,7 @@ export const products = [
     id: 28,
     slug: "streamit-tshirt",
     product_name: "shop.sreamit_t_shirt",
-    thumbnail: generateImgPath("/assets/images/shop/product/30.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/30.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -869,7 +869,7 @@ export const products = [
     id: 29,
     slug: "vehicle keychain",
     product_name: "shop.vehicle_keychain",
-    thumbnail: generateImgPath("/assets/images/shop/product/29.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/29.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -896,7 +896,7 @@ export const products = [
     id: 30,
     slug: "logo t-shirt",
     product_name: "shop.logo_t_Shirt",
-    thumbnail: generateImgPath("/assets/images/shop/product/17.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/17.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -923,7 +923,7 @@ export const products = [
     id: 31,
     slug: "red-&-black-t-shirt",
     product_name: "shop.red_&_black_t-shirt",
-    thumbnail: generateImgPath("/assets/images/shop/product/21.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/21.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",
@@ -950,7 +950,7 @@ export const products = [
     id: 32,
     slug: "socks",
     product_name: "shop.socks",
-    thumbnail: generateImgPath("/assets/images/shop/product/25.webp"),
+    thumbnail: generateImgPath("/public/assets/images/shop/product/25.webp"),
     descriptio:
       "shop.desc2",
     stock_status: "In Stock",

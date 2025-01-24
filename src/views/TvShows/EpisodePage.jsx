@@ -68,7 +68,7 @@ const TvShowsDetail = memo(() => {
   const shows = {
     id: 1,
     slug: "football-3",
-    thumbnail: generateImgPath("/assets/images/genre/01.webp"),
+    thumbnail: generateImgPath("/public/assets/images/genre/01.webp"),
     title: `${t('episode_page.football')} 3`,
     detail:
       "episode_page.episod_desc",
@@ -91,56 +91,56 @@ const TvShowsDetail = memo(() => {
     is_restricted: false,
     episodes: [
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/02.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/02.webp"),
         episode_no: "S01E02",
         release_date: `${t('detail_page.october')}  8, 2022`,
         duration: "35min",
         name: `${t('episode_page.zombie_world')} 2`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/03.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/03.webp"),
         episode_no: "S01E03",
         release_date: `${t('detail_page.october')}  15, 2022`,
         duration: "36min",
         name: `${t('episode_page.zombie_world')} 3`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/04.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/04.webp"),
         episode_no: "S01E04",
         release_date: `${t('detail_page.october')}  22, 2022`,
         duration: "41min",
         name: `${t('episode_page.zombie_world')} 4`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/01.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/01.webp"),
         episode_no: "S01E04",
         release_date: `${t('detail_page.october')} 1, 2022`,
         duration: "45min",
         name: `${t('episode_page.zombie_world')} 1`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/02.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/02.webp"),
         episode_no: "S01E02",
         release_date: `${t('detail_page.october')}  8, 2022`,
         duration: "35min",
         name: `${t('episode_page.zombie_world')} 2`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/03.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/03.webp"),
         episode_no: "S01E03",
         release_date: `${t('detail_page.october')}  15, 2022`,
         duration: "36min",
         name: `${t('episode_page.zombie_world')} 3`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/04.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/04.webp"),
         episode_no: "S01E04",
         release_date: `${t('detail_page.october')}  22, 2022`,
         duration: "41min",
         name: `${t('episode_page.zombie_world')} 4`,
       },
       {
-        thumbnail: generateImgPath("/assets/images/tv-show/episodes/01.webp"),
+        thumbnail: generateImgPath("/public/assets/images/tv-show/episodes/01.webp"),
         episode_no: "S01E04",
         release_date: `${t('detail_page.october')} 1, 2022`,
         duration: "45min",
@@ -180,7 +180,7 @@ const TvShowsDetail = memo(() => {
                       {shows.rating}
                       <img
                         src={generateImgPath(
-                          "/assets/images/movies/imdb-logo.svg"
+                          "/public/assets/images/movies/imdb-logo.svg"
                         )}
                         alt="imdb-logo"
                         className="img-fluid ms-2"
