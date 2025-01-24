@@ -313,7 +313,7 @@ export const blogsDetails = [
           <div class="row my-5">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            <div class="position-relative padding-200" style="background-image: url(../public/assets/images/pages/bg-rectangle.webp); background-size:cover">
+            <div class="position-relative padding-200" style="background-image: url(./public/assets/images/pages/bg-rectangle.webp); background-size:cover">
               <div class="iq-popup-video">
                  <div class="iq-video-icon position-absolute ">
                     <div class="iq-video bg-primary position-absolute text-center d-inline-block iq-fslightbox-img">
